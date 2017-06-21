@@ -1,0 +1,98 @@
+*
+{
+     box-sizing: border-box;
+}
+
+.main {
+   
+    width: 764px;
+    margin: 0 auto;
+    margin-top: 100px;
+   /* border: 1px solid black;*/
+}
+
+.header {
+     width: 770px;
+     overflow: hidden;
+     position: relative;
+     height: 42px;
+}
+
+
+/*The Following Works*/
+/*#Tabs {
+    width: 990px;
+    position: absolute;
+    left: 0px;
+    transition: left  .1s ease-in;
+}
+*/
+
+
+#Tabs {
+    width: 990px;
+    position: absolute;
+    left: 0px;
+    
+    transition: left  .2s ease-in;
+
+}
+
+#Tabs ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Tabs ul li {
+    width: 110px;
+    float: left;
+    border: 1px solid #d6d6d6;
+}
+
+#Tabs ul li a {
+    display: block;
+    float: left;
+    color: #53687e;
+    background: #efefef;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 36px 0 36px;
+    height: 40px;
+}
+
+#Tabs ul li a:hover, #Tabs ul li a:focus {
+    background: white;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div[id^="Div_"], div[id*="Div_"] {
+    width: 761px;
+    display: none;
+    border: 1px solid #61758a;
+}
+
+div[id^="Div_"] div, div[id*="Div_"] div {
+    height: 20px;
+    border: 1px solid #c4c4c4;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    cursor:pointer
+}
+.intro
+{
+    display: block !important;
+}
+#popup
+{
+    float: left;
+    padding: 10px;
+    position: absolute;
+}
